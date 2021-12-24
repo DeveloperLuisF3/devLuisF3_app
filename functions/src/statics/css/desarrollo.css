@@ -1,0 +1,495 @@
+.wrapper-section-dev {
+    width: 100%;
+    height: 100vh;
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(25,25,25,.7), rgba(0,0,0,.5) ), url("../img/serv.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+}
+.wrapper-section-dev header {
+    padding: 10px 0 10px 0;
+}
+.wrapper-section-dev header .wrapper-userimgapp{
+    width: 75px;
+    height: 75px;
+    margin: 0 15px 0 auto;
+}
+.wrapper-section-dev header .wrapper-userimgapp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.wrapper-section-dev .dev-tittle {
+    border: o;
+    margin: 100px auto 0 auto;
+    padding: 6%;
+    text-align: center;
+    background-color: rgba(0,0,0,.0);
+}
+.wrapper-section-dev .dev-tittle .tittle {
+    color: white;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+.wrapper-section-dev .dev-tittle .tittle span {
+    color: green;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .wrapper-section-dev .dev-tittle .tittle  {
+        font-size: 35px;
+    }
+    .wrapper-section-dev .dev-tittle .tittle span {
+        font-size: 35px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper-section-dev .dev-tittle .tittle {
+        font-size: 45px;
+    }
+    .wrapper-section-dev .dev-tittle .tittle span {
+        font-size: 45px;
+    }
+}
+@media (min-width: 992px) { 
+    .wrapper-section-dev .dev-tittle .tittle {
+        font-size: 70px;
+    }
+    .wrapper-section-dev .dev-tittle .tittle span {
+        font-size: 70px;
+    } 
+}
+
+.wrapper-perfil {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+}
+.wrapper-perfil .img {
+    width: 50%;
+    margin: 3% 25% 8% 25%;
+}
+.wrapper-perfil .perfil-body {
+    padding: 3%;
+}
+.wrapper-perfil .perfil-body .tittle {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-perfil .perfil-body .tittle span {
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
+.wrapper-perfil .perfil-body .tittle2 {
+    text-align: center;
+    font-style: italic;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+    .wrapper-perfil .perfil-body .tittle2 {
+        margin-bottom: 8%;
+    }
+}
+@media only screen and (min-width: 991px) {
+    .wrapper-perfil .perfil-body .tittle2 {
+        margin-bottom: 15%;
+    }
+}
+.wrapper-perfil .perfil-body .tittle2:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.wrapper-perfil .perfil-body p {
+    text-align: center;
+}
+@media only screen and (min-width: 991px) {
+    .wrapper-perfil .perfil-body p {
+        margin-bottom: 13%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .wrapper-perfil .perfil-body p {
+        margin-bottom: 10%;
+    }
+}
+.wrapper-perfil .perfil-body .social-network-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon {
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.facebook {
+    background-image: url("../img/facebook.png");
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.facebook:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.twiter {
+    background-image: url("../img/twiter.png");
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.twiter:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.arduino {
+    background-image: url("../img/arduino.png");
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.arduino:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.git {
+    background-image: url("../img/github.png");
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.git:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.youtube {
+    background-image: url("../img/youtube.png");
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.youtube:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon:not(:first-of-type) {
+    margin-left: 5px;
+}
+
+.wrapper-devcontact {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+}
+.wrapper-devcontact .img {
+    width: 50%;
+    margin: 3% 25% 10% 25%;
+}
+.wrapper-devcontact .devcontact-body .tittle {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-devcontact .devcontact-body .tittle span {
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
+.wrapper-devcontact .devcontact-body .tel {
+    text-align: center;
+}
+.wrapper-devcontact .devcontact-body .tel:hover {
+    color: green;
+    font-weight: bold;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.wrapper-devcontact .devcontact-body .email {
+    text-align: center;
+    color: green;
+}
+@media only screen and (min-width: 991px) {
+    .wrapper-devcontact .devcontact-body .email {
+        margin-bottom: 15%;
+    }
+}
+.wrapper-devcontact .devcontact-body .email:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.wrapper-devcontact .devcontact-body p {
+    text-align: center;
+}
+.wrapper-devcontact .devcontact-body a {
+    text-decoration: none;
+}
+
+.wrapper-devpurposes {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+}
+.wrapper-devpurposes .img {
+    width: 50%;
+    margin: 3% 25% 8% 25%;
+}
+.wrapper-devpurposes .devpurposes-body {
+    padding: 3%;
+}
+.wrapper-devpurposes .devpurposes-body .tittle {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-devpurposes .devpurposes-body .tittle span {
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
+.wrapper-devpurposes .devpurposes-body p {
+    text-align: center;
+    margin-bottom: 17%;
+}
+@media only screen and (min-width: 768px) {
+    .wrapper-devpurposes .devpurposes-body p {
+        margin-bottom: 13%;
+    }
+}
+@media only screen and (min-width: 991px) {
+    .wrapper-devpurposes .devpurposes-body p {
+        margin-bottom: 15%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .wrapper-devpurposes .devpurposes-body p {
+        margin-bottom: 12%;
+    }
+} 
+.wrapper-devpurposes .devpurposes-body .wrapper-btn {
+    margin: 5% auto 10% auto;
+    display: flex;
+    justify-content: center;
+}
+.wrapper-devpurposes .devpurposes-body .wrapper-btn
+.btn {
+    margin-top: 3%;
+    box-shadow: 3px 3px 3px #333;
+}
+.wrapper-devpurposes .devpurposes-body .wrapper-btn .btn:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.wrapper-algorithm {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+    padding-top: 5%;
+}
+.wrapper-algorithm .tittle {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-algorithm .tittle span {
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
+.wrapper-algorithm .algorithm-body {
+    padding: 5% 3% 5% 3%;
+    display: flexbox;
+    text-align: justify;
+}
+.wrapper-algorithm .algorithm-body .img {
+    float: right; 
+    width: 35%;
+}
+.wrapper-algorithm .algorithm-body .h5 {
+    margin-top: 10%;
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-algorithm .algorithm-body .h5 span {
+    font-family: fantasy;
+    color: green;
+}
+@media only screen and (min-width: 768px) {
+    .wrapper-algorithm .algorithm-body .h5 {
+        margin-top: 6%;
+    }
+}
+
+.wrapper-tecnology {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+}
+.wrapper-tecnology .img {
+    width: 75%;
+    margin: 3% 12% 5% 12%;
+}
+@media only screen and (min-width: 768px) {
+    .wrapper-tecnology .img {
+        width: 100%;
+        margin: 10% 0% 5% 0%;
+    }
+}
+@media only screen and (min-width: 991px) {
+    .wrapper-tecnology .img {
+        width: 100%;
+        margin: 10% 10% 5% 10%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .wrapper-tecnology .img {
+        width: 100%;
+        margin: 10% 20% 5% 20%;
+    }
+} 
+.wrapper-tecnology .tittle {
+    margin: 5% 0% 10% 0%;
+    text-align: center;
+    font-family: fantasy;
+    color: #74c735;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+@media only screen and (min-width: 991px) {
+    .wrapper-tecnology .tittle {
+        margin: 5% 0% 10% 20%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .wrapper-tecnology .tittle {
+        margin: 5% 0% 10% 40%;
+    }
+}
+.wrapper-tecnology .tecnology-body {
+    padding: 5%;
+}
+.wrapper-tecnology .tecnology-body .h5 {
+    margin: 0 0 10% 0;
+    text-align: left;
+    font-family: fantasy;
+}
+@media only screen and (min-width: 991px) {
+    .wrapper-tecnology .tecnology-body .h5 {
+        text-align: center;
+    }
+}
+.wrapper-tecnology .tecnology-body .h5 span {
+    font-family: fantasy;
+    color: green;
+}
+.wrapper-tecnology .tecnology-body .text {
+    text-align: left;
+}
+@media only screen and (min-width: 991px) {
+    .wrapper-tecnology .tecnology-body .text {
+        text-align: center;
+    }
+}
+.wrapper-tecnology .tecnology-body .text:hover {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.wrapper-tecnology .tecnology-body a {
+    text-decoration: none;
+}
+
+.wrapper-git {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+}
+.wrapper-git .img {
+    width: 75%;
+    margin: 5% 12% 5% 12%;
+}
+@media only screen and (min-width: 768px) {
+    .wrapper-git .img {
+        width: 100%;
+        margin: 15% 0% 0% 0%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .wrapper-git .img {
+        width: 75%;
+        margin: 10% 0% 0% 15%;
+    }
+}
+.wrapper-git .git-body {
+    padding: 5%;
+    display: flexbox;
+    text-align: justify;
+}
+.wrapper-git .git-body .tittle {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-git .git-body .tittle span {
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
+
+.wrapper-fireb {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+    padding-top: 5%;
+}
+.wrapper-fireb .tittle {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-fireb .tittle span {
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
+.wrapper-fireb .fireb-body {
+    padding: 5% 3% 5% 3%;
+    display: flexbox;
+    text-align: justify;
+}
+.wrapper-fireb .fireb-body .img {
+    float: right; 
+    width: 35%;
+}
+
+.wrapper-resp {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+}
+.wrapper-resp .img {
+    width: 100%;
+    margin: 3% 0% 5% 0%;
+}
+@media only screen and (min-width: 768px) {
+    .wrapper-resp .img {
+        width: 100%;
+        margin: 15% 0% 0% 0%;
+    }
+}
+.wrapper-resp .resp-body {
+    padding: 5%;
+    display: flexbox;
+    text-align: justify;
+}
+.wrapper-resp .resp-body .tittle {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-resp .resp-body .tittle span {
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
